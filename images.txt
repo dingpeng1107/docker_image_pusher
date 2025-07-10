@@ -11,3 +11,4 @@ minio/minio:RELEASE.2020-08-27T05-16-20Z
 #--platform=linux/arm64
 # 以下两条命令，效果相同
 #--platform=linux/x86_64
+#--platform=linux/amd64
