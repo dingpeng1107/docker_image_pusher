@@ -1,7 +1,7 @@
 milvusdb/milvus:v2.4.5
 zilliz/attu:v2.4
 postgres:14.13
-redis:7.4.1
+--platform=linux/amd64 redis:7.4.1
 nginx:1.27.0
 minio/minio:RELEASE.2020-08-27T05-16-20Z
 #支持私库
@@ -11,5 +11,3 @@ minio/minio:RELEASE.2020-08-27T05-16-20Z
 #--platform=linux/arm64
 # 以下两条命令，效果相同
 #--platform=linux/x86_64
---platform=linux/amd64
-
